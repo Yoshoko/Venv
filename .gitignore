@@ -1,0 +1,4 @@
+venv/
+*.log
+*.sqlite
+.DS_Store
