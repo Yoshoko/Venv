@@ -1,0 +1,24 @@
+GET http://127.0.0.1:8000
+###
+GET http://127.0.0.1:8000/projets/
+###
+POST http://127.0.0.1:8000/projets
+Content-Type: application/json
+
+{
+    "rubrique":"rubrique",
+    "nom":"nom",
+    "image":"image",
+    "rendu":"rendu"
+}
+###
+DELETE http://127.0.0.1:8000/projets/4
+
+###
+PUT http://127.0.0.1:8000/projets/3
+Content-Type: application/json
+
+{
+    "nom":"Le projet"
+
+}
